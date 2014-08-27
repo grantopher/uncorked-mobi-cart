@@ -1,0 +1,125 @@
+.color-wheel {
+	display: block;
+	background: url('../img/color_wheel.svg') no-repeat 4%;
+	height: 80px;
+	background-size: auto 80px;
+	padding-left: 40px;
+	background-color: #111;
+}
+
+.add-to-cart-btn {
+	width: 100%;
+	margin-top: 20px;
+}
+.checkout-btn {
+	width: 100%;
+	max-width: 400px;
+	margin-top: 40px;
+}
+.cart-item {
+	margin-bottom: 30px;
+}
+.cart-btn {
+	width: 100%;	
+}
+.cart-view-quantity {
+	margin-right:18px;
+}
+
+.cart-quantity button .glyphicon {
+	padding: 1px 1px 4px 2px;
+}
+.trash-title {
+	border-bottom: none !important;
+	text-align: center;
+}
+.remove-btn {
+	border: none !important;
+}
+.remove-btn span{
+	border: none !important;
+	text-align: center;
+	opacity: 0;
+}
+.remove-btn a {
+	color: #F00;
+	font-size:1.5em;
+	
+}
+.remove-btn:hover {
+	visibility: visible;
+}
+
+.btn-third {
+	width: 33.3333%;
+}
+.btn-group {
+	width: 100%;
+	}
+.customer-form {
+	background-color: #fafafa;
+}
+.input-group {
+	margin-bottom: 10px;
+}
+.label {
+	margin-bottom: 6px;
+	font-size: 1em;
+}
+.customer-review .item {
+	margin-bottom: 13px;
+}
+.label-left{
+	text-align: right;
+	width: 50%;
+	display: inline-block;
+}
+.label-right {
+	text-align: left;
+	width: 50%;
+	display: inline-block;
+	padding-left: 5px;
+}
+.ship-options {
+	text-align: right;
+	vertical-align: middle !important;
+}
+
+.product-table td, .product-table th{
+	text-align: right;
+}
+.product-table td:first-of-type, .product-table th:first-of-type{
+	text-align: left;
+}
+.bottom-pad {
+	display: block;
+	height: 120px;
+	content: ' ';
+
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+
+.well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
