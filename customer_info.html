@@ -7,6 +7,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,maximum-scale = 1.0">
 	<link href="http://fonts.googleapis.com/css?family=Lato:900,300,700,400" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="cart-view">
@@ -30,14 +31,14 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-group">
-										<span class="input-group-addon">First Name</span>
-										<input type="text" class="form-control" placeholder="John">
+										<span class="input-group-addon"><i class="fa fa-user fa-md"></i></span>
+										<input type="text" class="form-control" placeholder="First Name*" required>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="input-group">
-										<span class="input-group-addon">Last Name</span>
-										<input type="text" class="form-control" placeholder="Smith">
+										<span class="input-group-addon"><i class="fa fa-user fa-md"></i></span>
+										<input type="text" class="form-control" placeholder="Last Name*" required>
 									</div>
 								</div>
 							</div>
@@ -45,23 +46,23 @@
 							<div class="row">
 								<div class="col-sm-6 pull-right">
 									<div class="input-group">
-										<span class="input-group-addon">Company</span>
-										<input type="text" class="form-control" placeholder="Apple">
+										<span class="input-group-addon"><i class="fa fa-building fa-md"></i></span>
+										<input type="text" class="form-control" placeholder="Company">
 									</div>
 									<div class="alert alert-danger">If you enter a company name, your commission check will be issued to that company's name.</div>
 								</div>
 								<div class="col-xs-12 col-sm-6 pull-left">
 									<div class="input-group">
-										<span class="input-group-addon">Email</span>
-										<input type="text" class="form-control" placeholder="example@host.com">
+										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<input type="text" class="form-control" placeholder="Email*" required>
 									</div>
 									<div class="input-group">
-										<span class="input-group-addon">Confirm</span>
-										<input type="text" class="form-control" placeholder="example@host.com">
+										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<input type="text" class="form-control" placeholder="Confirm email*" required>
 									</div>
 									<div class="input-group">
-										<span class="input-group-addon">Phone Number</span>
-										<input type="text" class="form-control" placeholder="1234567890">
+										<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+										<input type="text" class="form-control" placeholder="Phone Number*" required>
 									</div>
 									
 								</div>
@@ -69,21 +70,21 @@
 								<br>
 							<div class="row">
 								<div class="col-sm-6">
-									<div class="input-group"><span class="input-group-addon">Address 1</span><input type="text" class="form-control" placeholder="123 Main St."></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-home"></i></span><input type="text" class="form-control" placeholder="Address*" required></div>
 								</div>
 								<div class="col-sm-6">
-									<div class="input-group"><span class="input-group-addon">Address 2</span><input type="text" class="form-control" placeholder="Apt. #, Office #, Etc."></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-home"></i></span><input type="text" class="form-control" placeholder="Apt. or Suite No."></div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-7">
-									<div class="input-group"><span class="input-group-addon">City</span><input type="text" class="form-control" placeholder="Redding"></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-map-marker"></i></span><input type="text" class="form-control" placeholder="City*" required></div>
 								</div>
 								<div class="col-sm-2 col-xs-5">
-									<div class="input-group"><span class="input-group-addon">State</span><input type="text" class="form-control" placeholder="CA"></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-map-marker"></i></span><input type="text" class="form-control" placeholder="State*" required></div>
 								</div>
 								<div class="col-sm-3 col-xs-7">
-									<div class="input-group"><span class="input-group-addon">Zip</span><input type="text" class="form-control" placeholder="88929"></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-map-marker"></i></span><input type="text" class="form-control" placeholder="Zip*" required></div>
 								</div>
 							</div>
 							<br>
@@ -96,8 +97,8 @@
 									
 								</div>
 								<div class="col-sm-6 col-sm-offset-3">
-									<div class="input-group"><span class="input-group-addon">Password</span><input type="password" class="form-control"></div>
-									<div class="input-group"><span class="input-group-addon">Confirm</span><input type="password" class="form-control"></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span><input type="password" class="form-control" placeholder="password*" required></div>
+									<div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span><input type="password" class="form-control" placeholder="confirm*" required></div>
 									<div class="alert alert-danger">
 										Please do not use invalid characters like spaces or !@#$%^&amp;*()?.,&lt;&gt;'";:\/{}[]  They will be REMOVED from your password.
 									</div>

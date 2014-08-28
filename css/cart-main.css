@@ -123,3 +123,21 @@
   padding: 9px;
   border-radius: 3px;
 }
+.customer-form .fa {
+	width: 15px;
+}
+.cc-icon-wrapper {
+	font-size: 4em;
+	display: inline-block;
+	text-align: center;
+}
+#cc-type {
+	font-size: 27px;
+}
+#cc-form-number {
+	padding: 0 7;
+}
+
+.ccv-wrapper {
+	width: 30%;
+}
